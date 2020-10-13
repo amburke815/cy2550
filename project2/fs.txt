@@ -1,1 +1,1 @@
-This is where I'll submit the fs commands. I'm having trouble finding differences between files and am planning on going to office hours either tomorrow or the next day
+chmod 555 proc
