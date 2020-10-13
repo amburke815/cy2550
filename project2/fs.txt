@@ -1,2 +1,10 @@
 chmod 555 proc
 chmod 555 sys
+chmod 700 etc/passwd
+chmod 600 etc/passwd
+chmod 500 etc/passwd
+chmod 400 etc/passwd
+chmod 300 etc/passwd
+chmod 200 etc/passwd
+chmod 100 etc/passwd
+chmod 000 etc/passwd
