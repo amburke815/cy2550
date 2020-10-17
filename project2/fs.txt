@@ -8,3 +8,17 @@ chmod 300 etc/passwd
 chmod 200 etc/passwd
 chmod 100 etc/passwd
 chmod 000 etc/passwd
+chmod 700 root/.bash_history
+chmod 700 root/.bashrc
+chmod 700 root/.profile
+chmod 700 root/.bash_history
+chmod 700 usr/bin/newgrp
+chmod 700 usr/bin/gpasswd
+chmod 700 usr/bin/newgrp
+chmod 700 usr/bin/newgrp
+chmod 755 usr/bin/awk
+chmod 755 usr/bin/bash
+chmod 755 usr/bin/captoinfo
+chmod 755 usr/bin/ls
+chmod 755 usr/bin/passwd
+chmod 755 usr/bin/sha1sum
