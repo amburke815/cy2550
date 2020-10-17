@@ -28,3 +28,4 @@ chmod g=rx,o=rx usr/bin/passwd
 chmod 755 wall
 chmod 755 home/alice 
 chmod 755 home/bob
+chmod 711 home/alice
