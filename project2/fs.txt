@@ -22,3 +22,4 @@ chmod 755 usr/bin/captoinfo
 chmod 755 usr/bin/ls
 chmod 755 usr/bin/passwd
 chmod 755 usr/bin/sha1sum
+chown root:shadow usr/bin/su
