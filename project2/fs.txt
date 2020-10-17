@@ -25,3 +25,6 @@ chmod 755 usr/bin/sha1sum
 chown root:shadow usr/bin/su
 chmod 700 usr/bin/passwd  *** play w/ permissions?
 chmod g=rx,o=rx usr/bin/passwd
+chmod 755 wall
+chmod 755 home/alice 
+chmod 755 home/bob
