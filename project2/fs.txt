@@ -24,4 +24,4 @@ chmod 755 usr/bin/passwd
 chmod 755 usr/bin/sha1sum
 chown root:shadow usr/bin/su
 chmod 700 usr/bin/passwd  *** play w/ permissions?
-chmod u=rws,g=rx,o=rx usr/bin/passwd
+chmod g=rx,o=rx usr/bin/passwd
