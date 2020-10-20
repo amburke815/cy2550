@@ -34,3 +34,9 @@ chgrp root /var/log/apt
 chmod 664 /var/log/lastlog
 chmod 775 /var/log
 chmod 755 /usr/sbin/adduser
+chmod 755 /usr/sbin/addgroup
+chmod 755 /usr/sbin/cpgr
+chmod 755 /usr/sbin/delgroup
+chgrp shadow /usr/bin/wall
+chown :root /var/log/apt
+chgrp shadow /usr/bin/umount
