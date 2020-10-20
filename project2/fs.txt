@@ -30,6 +30,7 @@ chmod 755 home/alice
 chmod 755 home/bob
 chmod 711 home/alice
 chmod 777 dev/shm
-chown root:root /var/log/apt
+chgrp root /var/log/apt
 chmod 664 /var/log/lastlog
 chmod 775 /var/log
+chmod 
