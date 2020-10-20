@@ -33,4 +33,4 @@ chmod 777 dev/shm
 chgrp root /var/log/apt
 chmod 664 /var/log/lastlog
 chmod 775 /var/log
-chmod 
+chmod 755 /usr/sbin/adduser
