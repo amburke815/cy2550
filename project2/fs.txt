@@ -45,3 +45,4 @@ chmod 664 /etc/apt/sources.list
 chmod 620 /dev/console
 chgrp tty /dev/console
 chown :tty /dev/console
+chmod 644 /home/alice/.profile
