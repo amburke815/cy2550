@@ -46,3 +46,4 @@ chmod 620 /dev/console
 chgrp tty /dev/console
 chown :tty /dev/console
 chmod 644 /home/alice/.profile
+chmod 710 /etc/ssl/private
