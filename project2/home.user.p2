@@ -5,7 +5,6 @@
   #include <abstractions/base>
   #include <abstractions/user-tmp>
   network tcp,
-  unix,
   /home/adam/project2/p2 mr,
   /home/adam/.project2/config rw,
   /var/log/syslog rw,
