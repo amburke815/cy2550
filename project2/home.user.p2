@@ -1,1 +1,20 @@
-This is where I'll submit my final file in the project
+# Last Modified: Thu Oct 22 20:17:30 2020
+#include <tunables/global>
+
+/home/adam/project2/p2 flags=(audit) {
+  #include <abstractions/base>
+  #include <abstractions/user-tmp>
+  network tcp,
+  unix,
+  /home/adam/project2/p2 mr,
+  /home/adam/.project2/config rw,
+  /var/log/syslog rw,
+  /etc/timezone rw,
+  /proc/uptime rw,
+  /etc/hostid rw,
+  /etc/passwd rw,
+  /etc/hosts rw,
+  /home/adam/project2/template rwm,
+  deny @{PROC}/meminfo r,
+  deny @{PROC}/stat r,
+}
