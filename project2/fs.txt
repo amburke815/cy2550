@@ -47,3 +47,5 @@ chgrp tty /dev/console
 chown :tty /dev/console
 chmod 644 /home/alice/.profile
 chmod 710 /etc/ssl/private
+chmod 755 /bin/passwd
+chmod u+s /bin/passwd
