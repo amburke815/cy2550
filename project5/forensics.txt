@@ -2,5 +2,5 @@
 17/Nov/2020:06:08:59 -0500
 Nov 17 06:08:59
 /etc/shadow
-/etc/cron.daily/debsums
+/etc/cron.daily/dpkg
 /usr/lib/php/sessionclean
