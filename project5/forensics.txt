@@ -2,5 +2,5 @@
 17/Nov/2020:06:08:59 -0500
 Nov 17 06:08:59
 /etc/shadow
-/usr/lib/php/sessionclean
-/usr/bin/less
+/usr/sbin/anacron
+/usr/sbin/anacron
