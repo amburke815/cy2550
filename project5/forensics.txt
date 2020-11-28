@@ -3,4 +3,4 @@
 Nov 17 06:08:59
 /etc/shadow
 /root/singly-touchdowns-pixy-1.sh
-/usr/sbin/anacron
+/usr/bin/tee
